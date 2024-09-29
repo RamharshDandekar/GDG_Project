@@ -78,20 +78,19 @@
 }
 
 .tech-icon.android::before {
-    content: "🤖"; /* Emoji representing Android */
+    content: "🤖"; 
 }
 
 .tech-icon.flutter::before {
-    content: "📱"; /* Emoji representing Flutter */
+    content: "📱"; 
 }
 
 .tech-icon.cloud::before {
-    content: "☁️"; /* Emoji representing Cloud */
+    content: "☁️"; 
 }
 
 .tech-icon.IT::before {
     content: "🌐";
-    /* Emoji representing Cloud */
 }
 
 .arrow-down {
@@ -99,10 +98,9 @@
     margin-top: 10px;
 }
 
-/* For smaller screens, adjust max width to maintain responsiveness */
 @media (max-width: 600px) {
     .tech-card {
-        flex: 1 0 calc(50% - 20px); /* 2 cards for smaller screens */
+        flex: 1 0 calc(50% - 20px);
     }
 }
 

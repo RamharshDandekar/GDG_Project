@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
@@ -35,6 +36,12 @@ const App = () => {
 
     return (
         <div className="App">
+            <Helmet>
+                <title>Jai Shri Ram</title>
+                <meta name="description" content="A brief description of your website and what it offers." />
+                <meta name="keywords" content="real estate, community, technology, events" />
+                <meta name="author" content="Your Name" />
+            </Helmet>
             <Navbar />
             <HeroSection />
             <ScrollDownIcon />

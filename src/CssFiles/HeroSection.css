@@ -1,14 +1,11 @@
 .hero-section {
     padding: 50px 20px;
-    /* transition: background-color 0.3s ease; Smooth transition */
 }
 
 body[data-bs-theme="dark"] .hero-section {
     background-color: #1c1c1e;
-    /* Dark background for dark theme */
 }
 
-/* Additional styles remain unchanged */
 .hero-heading {
     font-size: 48px;
     margin-bottom: 20px;
@@ -16,27 +13,22 @@ body[data-bs-theme="dark"] .hero-section {
 
 .hero-heading span {
     font-size: 48px;
-    /* Size for each letter */
 }
 
 .yellow {
     color: #f9c24d;
-    /* Yellow color */
 }
 
 .green {
     color: #34a853;
-    /* Green color */
 }
 
 .red {
     color: #ea4335;
-    /* Red color */
 }
 
 .blue {
     color: #4285f4;
-    /* Blue color */
 }
 
 .black {
@@ -47,16 +39,13 @@ body[data-bs-theme="dark"] .hero-section {
 .sub-heading {
     font-size: 36px;
     color: #6c757d;
-    /* Grey color */
     margin-bottom: 20px;
 }
 
 .hero-image {
     max-width: 100%;
-    /* Responsive image */
     height: auto;
     margin-bottom: 20px;
-    /* Space below image */
 }
 
 .hero-description {
@@ -68,9 +57,7 @@ body[data-bs-theme="dark"] .hero-section {
 
 .join-button {
     background-color: #382bf0;
-    /* Button color */
     color: #fff;
-    /* White text */
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -80,7 +67,6 @@ body[data-bs-theme="dark"] .hero-section {
 
 .join-button:hover {
     background-color: #5a32b1;
-    /* Darker purple on hover */
 }
 
 [data-bs-theme="dark"] .hero-description {
@@ -88,12 +74,22 @@ body[data-bs-theme="dark"] .hero-section {
     /* Light gray text for dark theme */
 }
 
+[data-bs-theme="dark"] .sub-heading {
+    color: #bdbfc2;
+    /* gray text for dark theme */
+}
+
+[data-bs-theme="dark"] .black {
+    color: #e9ecef;
+    /* Light gray text for dark theme */
+}
+
 [data-bs-theme="dark"] .join-button {
     background-color: #5a32b1;
-    /* Darker purple for dark theme */
+    /* Darker blue for dark theme */
 }
 
 [data-bs-theme="dark"] .join-button:hover {
     background-color: #382bf0;
-    /* Vibrant purple on hover */
+    /* Vibrant blue on hover */
 }
