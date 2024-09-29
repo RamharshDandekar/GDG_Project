@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ScrollDownIcon from './components/ScrollDownIcon';
